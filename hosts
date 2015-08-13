@@ -1,0 +1,16 @@
+root@ip-10-0-0-125:/etc/rc2.d# ls -ltr
+total 4
+lrwxrwxrwx 1 root root  18 Mar 25 11:50 S99ondemand -> ../init.d/ondemand
+lrwxrwxrwx 1 root root  18 Mar 25 11:50 S99rc.local -> ../init.d/rc.local
+lrwxrwxrwx 1 root root  18 Mar 25 11:52 S70pppd-dns -> ../init.d/pppd-dns
+lrwxrwxrwx 1 root root  15 Mar 25 11:52 S20rsync -> ../init.d/rsync
+lrwxrwxrwx 1 root root  24 Mar 25 11:52 S20screen-cleanup -> ../init.d/screen-cleanup
+lrwxrwxrwx 1 root root  21 Mar 25 11:52 S99grub-common -> ../init.d/grub-common
+lrwxrwxrwx 1 root root  26 Mar 25 11:52 S45landscape-client -> ../init.d/landscape-client
+lrwxrwxrwx 1 root root  23 Mar 25 11:52 S38open-vm-tools -> ../init.d/open-vm-tools
+lrwxrwxrwx 1 root root  19 Mar 25 11:52 S70dns-clean -> ../init.d/dns-clean
+-rw-r--r-- 1 root root 677 Jun 15 03:31 README
+lrwxrwxrwx 1 root root  18 Jul 24 15:39 S99tomcat -> /etc/init.d/tomcat
+lrwxrwxrwx 1 root root  18 Jul 24 15:40 K01tomcat -> /etc/init.d/tomcat
+lrwxrwxrwx 1 root root  15 Jul 24 17:12 S80ihs -> /etc/init.d/ihs
+lrwxrwxrwx 1 root root  15 Jul 24 17:12 K80ihs -> /etc/init.d/ihs
